@@ -246,16 +246,11 @@ async def get_readable_message(
             config_dict["DELETE_LINKS"]
             and int(config_dict["AUTO_DELETE_MESSAGE_DURATION"]) > 0
         ):
-            msg += (
-                f"<b><i>\n#Zee{index + start_position}: "
-                f"{escape(f"{task.name()}")}\n</i></b>"
-                if elapse <= config_dict["AUTO_DELETE_MESSAGE_DURATION"]
-                else f"\n<b>#Zee{index + start_position}...(Processing)</b>"
-            )
+                       msg += f"<b>{index + start_position}.<a href='{task.listener.message.link}'>{tstatus}</a>: </b>"
         else:
-            msg += (
-                f"<b><i>\n#Zee{index + start_position}: "
-                f"{escape(f"{task.name()}")}\n</i></b>"
+            msg += f"<b>{index + start_position}.{tstatus}: </b>"
+        msg += f"<code>{escape(f'{task.name()}')}</code>"
+        if tstatus not in [
             )
         if tstatus not in [
             MirrorStatus.STATUS_SEEDING,
