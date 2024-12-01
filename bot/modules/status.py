@@ -308,7 +308,7 @@ async def stats(_, message, edit_mode=False):
                 f"<code>Downloaded      : </code> {recv}\n" \
                 f"<code>Total Bandwidth : </code> {tb}"
 
-    sys_stats = f"<b><i><u>Zee System Statistics</u></i></b>\n\n"\
+    sys_stats = f"<b><i><u>ASA System Statistics</u></i></b>\n\n"\
                 f"<b>System Uptime:</b> <code>{sysTime}</code>\n" \
                 f"<b>CPU:</b> {get_progress_bar_string(cpuUsage)}<code> {cpuUsage}%</code>\n" \
                 f"<b>CPU Total Core(s):</b> <code>{cpu_count(logical=True)}</code>\n" \
