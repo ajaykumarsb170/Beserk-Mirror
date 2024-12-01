@@ -254,7 +254,7 @@ async def get_readable_message(
             msg += f"<b>{index + start_position}.{tstatus}: </b>"
         msg += f"<code>{escape(f'{task.name()}')}</code>"
         if tstatus not in [
-            )
+        
         if tstatus not in [
             MirrorStatus.STATUS_SEEDING,
             MirrorStatus.STATUS_QUEUEDL,
