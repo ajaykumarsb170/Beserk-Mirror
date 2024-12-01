@@ -130,7 +130,7 @@ async def ping(_, message):
 async def log(_, message):
     await send_file(
         message,
-        "Zee_Logs.txt"
+        "ASA_Logs.txt"
     )
 
 

@@ -202,7 +202,7 @@ async def start(client, message):
     ):
         start_string = "Bot Started.\n" \
                        "Now I will send all of your stuffs here.\n" \
-                       "Use me at: @Z_Mirror"
+                       "Use me at: <a href='https://t.me/ASA_MIKATA1'>ASA Mirror</a>"
     elif (
         not config_dict["DM_MODE"]
         and message.chat.type != message.chat.type.SUPERGROUP
