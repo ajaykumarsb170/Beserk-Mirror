@@ -25,9 +25,9 @@ from sys import exit
 
 getLogger("pymongo").setLevel(ERROR)
 
-if path.exists("Zee_Logs.txt"):
+if path.exists("ASA_Logs.txt"):
     with open(
-        "Zee_Logs.txt",
+        "ASA_Logs.txt",
         "r+"
     ) as f:
         f.truncate(0)
