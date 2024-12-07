@@ -394,6 +394,12 @@ async def get_readable_message(
         f"<b>RAM</b>: {virtual_memory().percent}% | "
         f"<b>UPTM</b>: {get_readable_time(time() - bot_start_time)}"
     )
+
+    # Add the clickable "Powered by ASA MIKTA"
+    msg += (
+        "\n\n<b>Powered by <a href='https://t.me/ASA_MIKATA1'>ASA MIKTA</a></b>"
+    )
+
     remaining_time = 86400 - (time() - bot_start_time)
     if remaining_time < 3600:
         if remaining_time > 0:
