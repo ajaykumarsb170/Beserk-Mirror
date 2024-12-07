@@ -216,7 +216,7 @@ async def get_readable_message(
 
      # Add the clickable "Powered by ASA MIKTA" here
     msg += (
-        "<b>Powered by <a href='https://t.me/ASA_MIKATA1'>ASA MIKTA</a></b>\n\n"
+        "<pre>Powered by ASA MIKTA\nFor more info, visit: https://t.me/ASA_MIKTA</pre>"
     )
 
     STATUS_LIMIT = config_dict["STATUS_LIMIT"]
