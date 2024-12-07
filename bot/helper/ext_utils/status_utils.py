@@ -214,6 +214,11 @@ async def get_readable_message(
         else None
     )
 
+     # Add the clickable "Powered by ASA MIKTA" here
+    msg += (
+        "<b>Powered by <a href='https://t.me/ASA_MIKATA1'>ASA MIKTA</a></b>\n\n"
+    )
+
     STATUS_LIMIT = config_dict["STATUS_LIMIT"]
     tasks_no = len(tasks)
     pages = (max(tasks_no, 1) + STATUS_LIMIT - 1) // STATUS_LIMIT
@@ -393,11 +398,6 @@ async def get_readable_message(
         f"<b>FREE</b>: {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}\n"
         f"<b>RAM</b>: {virtual_memory().percent}% | "
         f"<b>UPTM</b>: {get_readable_time(time() - bot_start_time)}"
-    )
-
-    # Add the clickable "Powered by ASA MIKTA"
-    msg += (
-        "\n\n<b>Powered by <a href='https://t.me/ASA_MIKATA1'>ASA MIKTA</a></b>"
     )
 
     remaining_time = 86400 - (time() - bot_start_time)
