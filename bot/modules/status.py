@@ -493,8 +493,8 @@ async def send_repo_stats(_, query):
             if version != vtag:
                 update_info =  f"⚠️ New Version Update Available ⚠️"
 
-    repo_stats = f"<b><i><u>Zee Repository Info</u></i></b> \n\n" \
-                 f"<b><i>Official Repository</i></b>        \n"   \
+    repo_stats = f"<b><i><u>ASA MIRROR Info</u></i></b> \n\n" \
+                 f"<b><i>ASA Repository</i></b>        \n"   \
                  f"<code>- Updated   : </code> {commit_date}\n"   \
                  f"<code>- Version   : </code> {vtag}       \n"   \
                  f"<code>- Changelog : </code> {c_log}      \n"   \
