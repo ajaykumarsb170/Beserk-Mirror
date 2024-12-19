@@ -36,7 +36,7 @@ class MirrorStatus:
     STATUS_CLONING = "Clone"
     STATUS_QUEUEDL = "QueueDL"
     STATUS_QUEUEUP = "QueueUL"
-    STATUS_PAUSED = "Paused ⛔️"
+    STATUS_PAUSED = "Paused"
     STATUS_ARCHIVING = "Archive"
     STATUS_EXTRACTING = "Extract"
     STATUS_SPLITTING = "Split"
