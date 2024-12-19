@@ -41,7 +41,7 @@ class MirrorStatus:
     STATUS_EXTRACTING = "Extract"
     STATUS_SPLITTING = "Split"
     STATUS_CHECKING = "CheckUp"
-    STATUS_SEEDING = "Seed 🌧"
+    STATUS_SEEDING = "Seed"
     STATUS_SAMVID = "SampleVid"
     STATUS_CONVERTING = "Convert"
     STATUS_METADATA = "Metadata"
@@ -319,7 +319,7 @@ async def get_readable_message(
                 f"\n<code>UserID :</code> ||{task.listener.user_id}||"
                 f"\n<code>Engine :</code> {task.engine}"
             )
-        msg += f"\n⚠️ {cancel_task}\n\n"
+        msg += f"\n{cancel_task}\n\n"
 
     if len(msg) == 0:
         if status == "All":
@@ -350,7 +350,7 @@ async def get_readable_message(
     if len(tasks) > STATUS_LIMIT:
         msg += f"<b>Tasks:</b> {tasks_no} | <b>Step:</b> {page_step}\n"
         buttons.data_button(
-            "⫷",
+            "⏪",
             f"status {sid} pre",
             position="header"
         )
@@ -360,7 +360,7 @@ async def get_readable_message(
             position="header"
         )
         buttons.data_button(
-            "⫸",
+            "⏩",
             f"status {sid} nex",
             position="header"
         )
@@ -405,7 +405,7 @@ async def get_readable_message(
         if remaining_time > 0:
             msg += f"\n\n<b><i>Bot Restarts In: {get_readable_time(remaining_time)}</i></b>"
         else:
-            msg += f"\n\n<b><i>⚠️ BOT WILL RESTART ANYTIME ⚠️</i></b>"
+            msg += f"\n\n<b><i> ⌛ BOT WILL RESTART ANYTIME ⌛ </i></b>"
     return (
         msg,
         button
