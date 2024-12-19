@@ -153,7 +153,7 @@ if UPSTREAM_REPO is not None:
     log_info("Fetching latest updates...")
     if update.returncode == 0:
         log_info("Successfully updated...")
-        log_info("Thanks For Using @Z_Mirror")
+        log_info("Thanks For Using <b><a href='https://t.me/ASA_MIKATA1'>ASA MIKATA</a></b>")
     else:
         log_error("Error while getting latest updates.")
         log_error("Check if entered UPSTREAM_REPO is valid or not!")
