@@ -247,7 +247,7 @@ async def restart_notification():
                     else "Bot Restarted!"
                 )
                 for tag, links in data.items():
-                    msg += f"\n\n👤 {tag} Do your tasks again. \n"
+                    msg += f"\n\n ♻️ {tag} Do your tasks again. \n"
                     for index, link in enumerate(
                         links,
                         start=1
