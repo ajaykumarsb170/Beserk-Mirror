@@ -83,7 +83,7 @@ class TelegraphHelper:
                     nxt_page += 1
             await self.edit_page(
                 path=path[prev_page],
-                title="<b><a href='https://t.me/ASA_MIKATA1'>ASA MIKATA</a></b>"",
+                title="<b><a href='https://t.me/ASA_MIKATA1'>ASA MIKATA</a></b>",
                 content=content,
             )
         return
