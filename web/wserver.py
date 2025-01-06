@@ -73,7 +73,7 @@ page = """
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torrent Selection</title>
+    <title>ASA Torrent Selection</title>
     <link rel="icon" href="https://images8.alphacoders.com/125/1250406.jpg" type="image/jpg">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -279,7 +279,7 @@ function s_validate() {
           alt="logo"
         />
         <a href="https://t.me/ASA_MIKATA1">
-          <h2 class="name">Torrent Selection</h2>
+          <h2 class="name">ASA Torrent Selection</h2>
         </a>
       </div>
       <div class="social">
