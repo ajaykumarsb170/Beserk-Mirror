@@ -278,13 +278,13 @@ function s_validate() {
           src="https://images8.alphacoders.com/125/1250406.jpg"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
-          <h2 class="name">Bittorrent Selection</h2>
+        <a href="https://t.me/ASA_MIKATA1">
+          <h2 class="name">Torrent File Selection</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/ajaykumarsb170/my-repo"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/ASA_MIKATA1"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <div id="sticks">
@@ -310,7 +310,7 @@ function s_validate() {
         });
 
         $("body").find("ul:first-child").attr("id", "treeview");
-        $(".parent").prepend("<span>▶</span>");
+        $(".parent").prepend("<span>■</span>");
 
         $("span").click(function (e) {
           e.stopPropagation();
@@ -670,13 +670,13 @@ section span{
           src="https://images8.alphacoders.com/125/1250406.jpg"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
-          <h2 class="name">Bittorrent Selection</h2>
+        <a href="https://t.me/ASA_MIKATA1">
+          <h2 class="name">Torrent File Selection</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/ajaykumarsb170/my-repo"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/ASA_MIKATA1"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
