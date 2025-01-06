@@ -74,7 +74,7 @@ page = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torrent File Selector</title>
-    <link rel="icon" href="https://telegra.ph/file/43af672249c94053356c7.jpg" type="image/jpg">
+    <link rel="icon" href="https://images8.alphacoders.com/125/1250406.jpg" type="image/jpg">
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -271,11 +271,11 @@ function s_validate() {
 </script>
 </head>
 <body>
-  <!--© Designed and coded by @bipuldey19-Telegram-->
+  <!--© Designed and coded by @ASA_MIKATA1-Telegram-->
     <header>
       <div class="brand">
         <img
-          src="https://telegra.ph/file/43af672249c94053356c7.jpg"
+          src="https://images8.alphacoders.com/125/1250406.jpg"
           alt="logo"
         />
         <a href="https://t.me/anas_tayyar">
@@ -471,7 +471,7 @@ code_page = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torrent Code Checker</title>
-    <link rel="icon" href="https://telegra.ph/file/43af672249c94053356c7.jpg" type="image/jpg">
+    <link rel="icon" href="https://images8.alphacoders.com/125/1250406.jpg" type="image/jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -663,11 +663,11 @@ section span{
     </style>
   </head>
 <body>
-   <!--© Designed and coded by @bipuldey19-Telegram-->
+   <!--© Designed and coded by @ASA_MIKATA1-Telegram-->
     <header>
       <div class="brand">
         <img
-          src="https://telegra.ph/file/43af672249c94053356c7.jpg"
+          src="https://images8.alphacoders.com/125/1250406.jpg"
           alt="logo"
         />
         <a href="https://t.me/anas_tayyar">
