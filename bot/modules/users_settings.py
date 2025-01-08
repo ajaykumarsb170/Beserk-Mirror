@@ -452,7 +452,7 @@ async def user_settings(client, message):
     media = (
         f"Thumbnails/{user_id}.jpg"
         if os_path.exists(f"Thumbnails/{user_id}.jpg")
-        else f"{def_media(JAVA.encode()).decode()}"
+        else f"thumbnail = "https://graph.org/file/73ae908d18c6b38038071.jpg"
     )
     usetMsg = await message.reply_photo(
         media,
