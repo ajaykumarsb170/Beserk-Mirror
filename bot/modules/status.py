@@ -68,8 +68,8 @@ async def mirror_status(_, message):
     if count == 0:
         currentTime = get_readable_time(time() - bot_start_time) # type: ignore
         free = get_readable_file_size(disk_usage(config_dict["DOWNLOAD_DIR"]).free)
-        msg = "Stop it!\nGet some help!\n\nNo Active Tasks!\n\n"
-        msg += f"Get your tasks status by adding me or user_id after cmd: /{BotCommands.StatusCommand[0]} me\n\n"
+        msg = "三 鷹 ア サ!\n\nNo Active Tasks!\n\n"
+        msg += f"Get more of my work Here <a href='https://t.me/ASA_MIKATA1'> @𝔸𝕤𝕒 𝕄𝕚𝕥𝕒𝕜𝕒</a>"
         msg += (
             f"\n<b>CPU:</b> {cpu_percent()}% | <b>FREE:</b> {free}"
             f"\n<b>RAM:</b> {virtual_memory().percent}% | <b>UPTIME:</b> {currentTime}"
@@ -260,7 +260,7 @@ def bot_sys_stats():
     bmsg += f"S: {swap}% | "
     bmsg += f"D: {disk}%\n\n"
     bmsg += f"Bandwidth Used: {traf}\n"
-    bmsg += f"{def_media(BASE.encode()).decode()}"
+    bmsg += f"{Join Here: <a href='https://t.me/ASA_MIKATA1'>@ASA_MIRROR</a>}"
     return bmsg
 
 
