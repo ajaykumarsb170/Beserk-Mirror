@@ -424,7 +424,6 @@ async def update_user_settings(query):
     media = f"Thumbnails/{user_id}.jpg" 
     if os.path.exists(f"Thumbnails/{user_id}.jpg") 
     else "https://graph.org/file/73ae908d18c6b38038071.jpg"
-    )
     await query.message.edit_media(
         media=InputMediaPhoto(
             media=media,
@@ -451,7 +450,6 @@ async def user_settings(client, message):
     media = f"Thumbnails/{user_id}.jpg" 
     if os.path.exists(f"Thumbnails/{user_id}.jpg") 
     else "https://graph.org/file/73ae908d18c6b38038071.jpg"
-    )
     usetMsg = await message.reply_photo(
         media,
         caption=msg,
