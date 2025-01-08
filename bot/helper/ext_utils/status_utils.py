@@ -394,10 +394,10 @@ async def get_readable_message(
     button = buttons.build_menu(8)
     msg += (
         "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
-        f"<pre><b>CPU</b>: {cpu_percent()}% | "
+        f"<blockqoute><b>CPU</b>: {cpu_percent()}% | "
         f"<b>FREE</b>: {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}\n"
         f"<b>RAM</b>: {virtual_memory().percent}% | "
-        f"<b>UPTM</b>: {get_readable_time(time() - bot_start_time)}</pre>"
+        f"<b>UPTM</b>: {get_readable_time(time() - bot_start_time)}</blockqoute>"
     )
 
     remaining_time = 86400 - (time() - bot_start_time)
