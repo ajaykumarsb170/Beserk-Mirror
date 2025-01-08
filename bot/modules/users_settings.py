@@ -450,7 +450,6 @@ async def user_settings(client, message):
         button
     ) = await get_user_settings(from_user)
     media = (
-        f"Thumbnails/{user_id}.jpg"
         if os_path.exists(f"Thumbnails/{user_id}.jpg")
     thumbnail = "https://graph.org/file/73ae908d18c6b38038071.jpg"
     )
