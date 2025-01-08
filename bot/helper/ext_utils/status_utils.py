@@ -216,7 +216,7 @@ async def get_readable_message(
 
      # Add the clickable "Powered by ASA MIKTA" here
     msg += (
-        "<pre><b>Powered by <a href='https://t.me/ASA_MIKATA1'>ASA MIAKATA</a></b>\n\n</pre>"
+        "<b>Powered by <a href='https://t.me/ASA_MIKATA1'>ASA MIAKATA</a></b>\n\n"
     )
 
     STATUS_LIMIT = config_dict["STATUS_LIMIT"]
@@ -397,7 +397,7 @@ async def get_readable_message(
         f"<pre><b>CPU</b>: {cpu_percent()}% | "
         f"<b>FREE</b>: {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}\n"
         f"<b>RAM</b>: {virtual_memory().percent}% | "
-        f"<b>UPTM</b></pre>: {get_readable_time(time() - bot_start_time)}"
+        f"<b>UPTM</b>: {get_readable_time(time() - bot_start_time)}</pre>"
     )
 
     remaining_time = 86400 - (time() - bot_start_time)
