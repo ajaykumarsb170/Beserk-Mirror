@@ -69,7 +69,7 @@ async def mirror_status(_, message):
         currentTime = get_readable_time(time() - bot_start_time) # type: ignore
         free = get_readable_file_size(disk_usage(config_dict["DOWNLOAD_DIR"]).free)
         msg = " ㅤ三 鷹 ア サㅤ!\n\nNo Active Tasks!\n\n"
-        msg += f"My Works Here <a href='https://t.me/ASA_MIKATA1'> @𝔸𝕤𝕒 𝕄𝕚𝕥𝕒𝕜𝕒</a>"
+        msg += f"My Works Here <a href='https://t.me/ASA_MIKATA1'> @𝔸𝕤𝕒 𝕄𝕚𝕥𝕒𝕜𝕒</a>ㅤㅤㅤㅤㅤ"
         msg += (
             f"\n<b>CPU:</b> {cpu_percent()}% | <b>FREE:</b> {free}"
             f"\n<b>RAM:</b> {virtual_memory().percent}% | <b>UPTIME:</b> {currentTime}"
