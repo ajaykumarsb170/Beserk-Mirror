@@ -192,7 +192,7 @@ def get_progress_bar_string(pct):
     )
     cFull = int(p // 10)
     p_str = "⬛" * cFull
-    p_str += "⬜" * (10 - cFull)
+    p_str += "⬜" * (9 - cFull)
     return f"{p_str}"
 
 
@@ -280,7 +280,7 @@ async def get_readable_message(
                 f"\n<code>ETA    :</code> {task.eta()}"
                 f"\n<code>Past   :</code> {elapsed}"
                 f"\n<code>User   :</code> <b>{user_tag}</b>"
-                f"\n<code>UserID :</code> ||{task.listener.user_id}||"
+                f"\n<code>UserID :</code>{task.listener.user_id}"
                 f"\n<code>Upload :</code> {task.listener.mode}"
                 f"\n<code>Engine :</code> <b><i>{task.engine}</i></b>"
             )
@@ -316,7 +316,7 @@ async def get_readable_message(
                 f"\n<code>Upload :</code> {task.listener.mode}"
                 f"\n<code>Past   :</code> {elapsed}"
                 f"\n<code>User   :</code> {user_tag}"
-                f"\n<code>UserID :</code> ||{task.listener.user_id}||"
+                f"\n<code>UserID :</code>{task.listener.user_id}"
                 f"\n<code>Engine :</code> {task.engine}"
             )
         msg += f"\n{cancel_task}\n\n"
@@ -350,7 +350,7 @@ async def get_readable_message(
     if len(tasks) > STATUS_LIMIT:
         msg += f"<b>Tasks:</b> {tasks_no} | <b>Step:</b> {page_step}\n"
         buttons.data_button(
-            "⏪",
+            "Prev",
             f"status {sid} pre",
             position="header"
         )
@@ -360,7 +360,7 @@ async def get_readable_message(
             position="header"
         )
         buttons.data_button(
-            "⏩",
+            "Next",
             f"status {sid} nex",
             position="header"
         )
