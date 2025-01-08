@@ -449,7 +449,9 @@ async def user_settings(client, message):
     ) = await get_user_settings(from_user)
     media = f"Thumbnails/{user_id}.jpg" 
     if os.path.exists(f"Thumbnails/{user_id}.jpg"):
-    else "https://graph.org/file/73ae908d18c6b38038071.jpg"
+            thumbnail_path = f"Thumbnails/{user_id}.jpg"
+            else:
+                thumbnail_path = "https://graph.org/file/73ae908d18c6b38038071.jpg"
     usetMsg = await message.reply_photo(
         media,
         caption=msg,
