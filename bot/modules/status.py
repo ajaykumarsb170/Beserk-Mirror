@@ -260,7 +260,7 @@ def bot_sys_stats():
     bmsg += f"S: {swap}% | "
     bmsg += f"D: {disk}%\n\n"
     bmsg += f"Bandwidth Used: {traf}\n"
-    bmsg +="Join Here: <a href='https://t.me/ASA_MIKATA1'>@ASA_MIRROR</a>"
+    msg +="Join Here: <a href='https://t.me/ASA_MIKATA1'>@ASA_MIRROR</a>"
     return bmsg
 
 
