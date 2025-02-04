@@ -9,7 +9,7 @@
 ` format. `Str`.
   - **NOTE**: Don't forget to remove '<' and '>' . Follow [**THIS TUTORIAL**](https://graph.org/GitLab-Upstream-Tutorial-06-02) to generate upstream repo. 
               - Any change in docker or requirements you need to deploy/build again with updated repo to take effect. 
-              - **DON'T delete .gitignore file**. For more information read [**THIS**](https://github.com/Dawn-India/Z-Mirror#upstream-repo-recommended).
+              - **DON'T delete .gitignore file**. For more information read.
 - `UPSTREAM_BRANCH`: Upstream branch for update. Default is `upstream`. `Str`
 
 - `BOT_TOKEN`: The Telegram Bot Token that you got from [**BotFather**](https://t.me/BotFather). `Str`
@@ -21,12 +21,11 @@
 - `TORRENT_TIMEOUT`: Timeout of dead torrents downloading with qBittorrent and Aria2c in seconds. `Int`
 
 ---
-### For farther assistance visit my support group: [**@Z_Mirror**](https://telegram.me/z_mirror).
+### For farther assistance visit my support group: [**@Asa Mirror**](https://t.me/ASA_MIKATA1).
 ---
 
 ## Deploy using CLI
 
-- Deployment instructions uploaded [**HERE**](https://gist.github.com/Dawn-India/9be1ca66b392dee82bcbc8d7f7ebefe8)
 - Carefully copy-paste every CMD one by one. If you miss maybe your BOT will not run.
 
 ## Deploy using Google Colab
@@ -34,5 +33,5 @@
 - Visit this [**LINK**](https://shorturl.at/pCLN5) and follow on-screen instructions.
 
 ---
-### Demo BOT available here: [**@Z_Mirror**](https://telegram.me/z_mirror).
+### Demo BOT available here: [**@Beserk Mirror**](https://t.me/ZeninToji_bot).
 ---
